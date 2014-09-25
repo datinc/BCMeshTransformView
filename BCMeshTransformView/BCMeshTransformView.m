@@ -80,6 +80,7 @@
     _glkView.delegate = self;
     _glkView.drawableDepthFormat = GLKViewDrawableDepthFormat16;
     _glkView.opaque = NO;
+    _glkView.drawableMultisample = GLKViewDrawableMultisample4X;
     
     [super addSubview:_glkView];
     
